@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    color: rgb(0, 128, 78);
+}
+
+.navd {
+    position: fixed;
+}
+
+.nav {
+    background-color: rgb(0, 128, 78);
+    padding: 0 5vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.nav_logo {
+    height: 60px;
+}
+
+.nav_links {
+    color: whitesmoke;
+}
+
+.nav_link {
+    color: white;
+    padding: 1rem;
+    padding-left: 2em;
+    text-decoration: none;
+}
+
+.banner_img {
+    width: 100vw;
+}
+
+.banner_img_responsive {
+    display: none;
+}
+
+.descrip {
+    background-color: rgba(50, 50, 56, 0.235);
+    text-align: justify;
+    font-size: 1.3rem;
+    padding-bottom: 3rem;
+}
+
+.descrip_info {
+    padding-top: 4vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+.descrip h2 {
+    color: rgb(0, 128, 78);
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.descrip_img {
+    position: static;
+    padding-left: 3rem;
+    text-align: center;
+}
+
+.infogeneral {
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/ntered.png);
+    background-size: 100vw;
+}
+
+.infogeneral_grid>li i {
+    color: rgb(0, 128, 78);
+    font-size: 1.5rem;
+    padding: 2%;
+}
+
+.infogeneral_grid {
+    background-color: rgba(240, 248, 255, 0.171);
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.infogeneral_grid:hover {
+    background-color: rgba(8, 8, 8, 0.884);
+    color: rgba(240, 248, 255, 0.363);
+    padding-bottom: 10vh;
+}
+
+.perfil {
+    background-color: rgba(50, 50, 56, 0.235);
+    text-align: justify;
+    font-size: 1.3rem;
+    padding-bottom: 3rem;
+}
+
+.perfil_text {
+    padding-top: 4vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+@media screen and (max-width: 680px) {
+    .banner_img {
+        display: none;
+    }
+
+    .banner_img_responsive {
+        display: flex;
+        width: 100vw;
+    }
+}
